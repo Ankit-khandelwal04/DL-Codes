@@ -1,7 +1,7 @@
 import pandas as pd
-import matplotlib.pyplot as plt
 import tensorflow as tf
 from tensorflow.keras import models, layers
+import matplotlib.pyplot as plt
 
 # Load dataset from local CSV files
 train_data = pd.read_csv('fashion-mnist_train.csv')
